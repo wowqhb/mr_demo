@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/tal-tech/go-zero/core/mr"
 	"log"
+
+	"github.com/tal-tech/go-zero/core/mr"
 )
 
 type DemoStruct struct {
@@ -35,7 +36,9 @@ func main() {
 		return
 	}
 	log.Printf("%v\n", demoStruct)
-
+	//sfdsfdsfdsf
+	//////////////////////////////
+	// s/dfsdfsdfsdfdsf
 	//map reduce
 	mapReduce, err := mr.MapReduce(func(source chan<- interface{}) {
 		//初始化
